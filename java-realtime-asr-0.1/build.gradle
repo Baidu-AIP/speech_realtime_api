@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+plugins {
+    id 'application'
+}
+
+//mainClassName = 'com.baidu.ai.speech.realtime.MiniMain'
+mainClassName = 'com.baidu.ai.speech.realtime.full.Main'
+
+group 'com.baidu.ai.speech'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    jcenter()
+    google()
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+dependencies {
+    implementation 'org.json:json:20190722'
+    implementation "com.squareup.okhttp3:okhttp:4.2.1"
+}

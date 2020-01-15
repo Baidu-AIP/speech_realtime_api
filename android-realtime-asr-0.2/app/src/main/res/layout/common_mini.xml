@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#999" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/scroll_view">
+
+        <TextView
+            android:id="@+id/txtLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp" />
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btn_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始" />
+
+    <Button
+        android:id="@+id/btn_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置" />
+
+</LinearLayout>

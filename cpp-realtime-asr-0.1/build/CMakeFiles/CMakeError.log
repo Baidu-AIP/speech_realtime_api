@@ -1,0 +1,17 @@
+Determining if the include file openssl/engines.h exists failed with the following output:
+Change Dir: /home/fu/CLionProjects/realtime_asr/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50dfb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50dfb.dir/build.make CMakeFiles/cmTC_50dfb.dir/build
+make[1]: Entering directory '/home/fu/CLionProjects/realtime_asr/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_50dfb.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_50dfb.dir/CheckIncludeFile.cxx.o -c /home/fu/CLionProjects/realtime_asr/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/fu/CLionProjects/realtime_asr/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:29: fatal error: openssl/engines.h: No such file or directory
+compilation terminated.
+CMakeFiles/cmTC_50dfb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_50dfb.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_50dfb.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/fu/CLionProjects/realtime_asr/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_50dfb/fast' failed
+make: *** [cmTC_50dfb/fast] Error 2
+
+
