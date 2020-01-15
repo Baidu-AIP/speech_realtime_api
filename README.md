@@ -9,7 +9,7 @@
 
 ```
 +--android-realtime-asr  android代码
-+--cpp-realtime-asr C代码 （windows Cygwin可以运行）
++--cpp-realtime-asr C代码 
 +--java-realtime-asr java代码 
 +--python-realtime-asr python代码 
 
