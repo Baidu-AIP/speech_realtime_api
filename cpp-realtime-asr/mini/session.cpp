@@ -149,6 +149,7 @@ void Session::on_write(beast::error_code ec, std::size_t bytes_transferred) {
     CHECK_EC_RETURN(ec, "write");
     if (stream_) {
         stream_.read(read_buffer_.get(), 5120);
+        ws_.auto_fragment(false);
         ws_.binary(true);
         ws_.async_write(net::buffer(read_buffer_.get(), stream_.gcount()), beast::bind_front_handler(
                 &Session::on_write, shared_from_this()));
