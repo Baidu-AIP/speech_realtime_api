@@ -10,7 +10,9 @@ const std::string APPKEY = "g8eBUxxxxGmgxLFYviL";
 // 修改其它识别语言或者识别模型
 const int DEV_PID = 15372;
 const std::string HOST = "vop.baidu.com";
-const int PORT = 80;
+
+// ssl to 443
+const int PORT = 443;
 const std::string PATH = "/realtime_asr";
 
 }

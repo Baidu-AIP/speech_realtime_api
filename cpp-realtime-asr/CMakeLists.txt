@@ -5,7 +5,7 @@ set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_VERBOSE_MAKEFILE on)
 set(CMAKE_CXX_STANDARD 11)
 
-option(WITH_SSL_OPTION "Using wss:\\ instead of ws:\\" OFF)
+option(WITH_SSL_OPTION "Using wss:\\ instead of ws:\\" ON)
 
 set(GCC_EXPECTED_VERSION 4.8.2)
 if(CMAKE_CXX_COMPILER_VERSION VERSION_LESS GCC_EXPECTED_VERSION)
